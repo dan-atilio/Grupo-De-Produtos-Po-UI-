@@ -1,0 +1,19 @@
+<div class="po-wrapper">
+
+  <po-toolbar p-title="Projeto Teste"></po-toolbar>
+
+  <po-menu
+    [p-collapsed]="false"
+    [p-filter]="true"
+    [p-menus]="menus"
+    [p-automatic-toggle]="false"
+  >
+    <div *p-menu-header-template class="po-p-2 po-font-title">
+      <p>Curso <b>PO UI</b></p>
+    </div>
+  </po-menu>
+
+  <po-page-default p-title="Grupo de Produtos">
+    <router-outlet></router-outlet> 
+  </po-page-default>
+</div>

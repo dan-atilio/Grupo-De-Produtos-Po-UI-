@@ -1,0 +1,62 @@
+export declare const poPageDynamicTableLiteralsDefault: {
+    en: {
+        pageAction: string;
+        pageActionRemoveAll: string;
+        tableActionView: string;
+        tableActionEdit: string;
+        tableActionDuplicate: string;
+        tableActionDelete: string;
+        confirmRemoveTitle: string;
+        confirmRemoveMessage: string;
+        confirmRemoveAllTitle: string;
+        confirmRemoveAllMessage: string;
+        loadDataErrorNotification: string;
+        removeSuccessNotification: string;
+        removeAllSuccessNotification: string;
+    };
+    es: {
+        pageAction: string;
+        pageActionRemoveAll: string;
+        tableActionView: string;
+        tableActionEdit: string;
+        tableActionDuplicate: string;
+        tableActionDelete: string;
+        confirmRemoveTitle: string;
+        confirmRemoveMessage: string;
+        confirmRemoveAllTitle: string;
+        confirmRemoveAllMessage: string;
+        loadDataErrorNotification: string;
+        removeSuccessNotification: string;
+        removeAllSuccessNotification: string;
+    };
+    pt: {
+        pageAction: string;
+        pageActionRemoveAll: string;
+        tableActionView: string;
+        tableActionEdit: string;
+        tableActionDuplicate: string;
+        tableActionDelete: string;
+        confirmRemoveTitle: string;
+        confirmRemoveMessage: string;
+        confirmRemoveAllTitle: string;
+        confirmRemoveAllMessage: string;
+        loadDataErrorNotification: string;
+        removeSuccessNotification: string;
+        removeAllSuccessNotification: string;
+    };
+    ru: {
+        pageAction: string;
+        pageActionRemoveAll: string;
+        tableActionView: string;
+        tableActionEdit: string;
+        tableActionDuplicate: string;
+        tableActionDelete: string;
+        confirmRemoveTitle: string;
+        confirmRemoveMessage: string;
+        confirmRemoveAllTitle: string;
+        confirmRemoveAllMessage: string;
+        loadDataErrorNotification: string;
+        removeSuccessNotification: string;
+        removeAllSuccessNotification: string;
+    };
+};

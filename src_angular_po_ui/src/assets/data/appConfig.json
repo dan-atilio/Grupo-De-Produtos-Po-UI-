@@ -1,0 +1,6 @@
+{
+    "name": "Prj_GrupoDeProdutos",
+    "version": "1.0.0",
+    "productLine": "Protheus",
+    "api_baseUrl": "http://127.0.0.1:8400/rest"
+}

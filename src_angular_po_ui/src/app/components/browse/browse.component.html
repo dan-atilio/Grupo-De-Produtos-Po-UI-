@@ -1,0 +1,22 @@
+<po-info p-label="Browse de Cadastro" p-value="Abaixo as informações dos Grupos de Produtos"> </po-info>
+
+<!-- Teste abaixo para mostrar o Token do Protheus
+<p id="obs1"></p>
+<p id="obs2"></p>
+-->
+
+<div class="po-row">
+  <po-button-group class="po-md-6" [p-buttons]="topButtons"> </po-button-group>
+</div>
+
+<po-table
+  [p-auto-collapse]="true"
+  [p-columns]="columns"
+  [p-hide-columns-manager]="true"
+  [p-hide-table-search]="false"
+  [p-items]="items"
+  [p-sort]="true"
+  [p-striped]="true"
+  [p-actions]="actions"
+  [p-actions-right]="true"
+></po-table>

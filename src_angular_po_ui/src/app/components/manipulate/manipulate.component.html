@@ -1,0 +1,81 @@
+<po-info p-label="Formulário de Manipulação do Cadastro" [p-value]="observacao"> </po-info>
+
+<!-- Teste abaixo para mostrar o Grupo e a operação
+<p id="m_obs1"></p>
+<p id="m_obs2"></p>
+-->
+
+<div class="po-row">
+    <po-button-group class="po-md-6" [p-buttons]="actionButtons"> </po-button-group>
+</div>
+
+<hr />
+
+<div class="po-row">
+    <div class="po-md-2">
+        <po-input 
+            name="bmGrupo" 
+            p-label="Código" 
+            p-required="true" 
+            [p-show-required]="true" 
+            p-upper-case="true" 
+            [(ngModel)]="bmGrupo"
+            [p-maxlength]="4"> 
+        </po-input>
+    </div>
+
+    <div class="po-md-6">
+        <po-input 
+            name="bmDesc" 
+            p-label="Descrição" 
+            p-required="true" 
+            [p-show-required]="true" 
+            [(ngModel)]="bmDesc"
+            [p-maxlength]="30"> 
+        </po-input>
+    </div>
+</div>
+
+<div class="po-row">
+    <div class="po-md-3">
+        <po-combo 
+            name="bmProOri" 
+            [ngModel]="bmProOri"
+            (ngModel)="bmProOri"
+            (p-change)="onChangeProOri($event)"
+            p-label="Procedência" 
+            [p-options]="[{value: '1', label: 'Original'}, {value: '2', label: 'Não Original'}]">
+        </po-combo>
+    </div>
+
+    <div class="po-md-3">
+        <po-combo 
+            name="bmStatus" 
+            [ngModel]="bmStatus"
+            (ngModel)="bmStatus"
+            (p-change)="onChangeStatus($event)"
+            p-label="Status" 
+            [p-options]="[{value: '1', label: 'Novo'}, {value: '2', label: 'Remanufaturado'}, {value: '3', label: 'Reciclado'}, {value: '4', label: 'Usado'}]">
+        </po-combo>
+    </div>
+</div>
+
+<div class="po-row">
+    <div class="po-md-2">
+        <po-decimal
+            name="bmMargPre" 
+            [(ngModel)]="bmMargPre"
+            p-label="% Marg. Preferência" 
+            [p-decimals-length]="2"
+            [p-thousand-maxlength]="3">
+        </po-decimal>
+    </div>
+
+    <div class="po-md-3">
+        <po-datepicker
+            name="bmDtUMov" 
+            [(ngModel)]="bmDtUMov"
+            p-label="Data Transf. uMov.me">
+        </po-datepicker>
+    </div>
+</div>

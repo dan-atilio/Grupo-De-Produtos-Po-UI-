@@ -1,0 +1,23 @@
+{
+  "$schema": "http://json-schema.org/schema",
+  "$id": "SchematicsNgAdd",
+  "title": "Ng Add Options Schema",
+  "type": "object",
+  "properties": {
+    "project": {
+      "type": "string",
+      "description": "Name of the project.",
+      "$default": {
+        "$source": "projectName"
+      }
+    },
+    "configSideMenu": {
+      "type": "boolean",
+      "description": "When true create a app.component with po-toolbar and po-menu configured.",
+      "default": true,
+      "x-prompt": "Would you like to configure Sidemenu?",
+      "x-user-analytics": 17
+    }
+  },
+  "required": []
+}
